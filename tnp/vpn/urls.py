@@ -21,4 +21,14 @@ urlpatterns = [
     #home page
     url(r'^$', views.index, name='index'),
     url(r'^about/', views.about, name='about'),
+    url(r'^contact/', views.contact, name='contact'),
+    url(r'^how-to-reach/', views.reach, name='reach'),
+    url(r'^functionaries/', views.functionaries, name='functionaries'),
+    url(r'^directors-desk/', views.director, name='director'),
+    url(r'^training-Placement-Office/', views.office, name='office'),
+    url(r'^placement-procedure/', views.placement, name='placement'),
+    url(r'^placement-record/', views.record, name='record'),
+    url(r'^proud-recruiters/', views.recruiters, name='recruiters'),
+    url(r'^internship-procedure/', views.internship, name='internship'),
+    url(r'^training-internship-opportunities/', views.opportunities, name='opportunities'),
 ]

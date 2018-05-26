@@ -12,3 +12,33 @@ def index(request):
 
 def about(request):
     return render(request, "vpn/home.html", {})
+
+def contact(request):
+    return render(request, "vpn/home.html", {})
+
+def reach(request):
+    return render(request, "vpn/home.html", {})
+
+def functionaries(request):
+    return render(request, "vpn/home.html", {})
+
+def director(request):
+    return render(request, "vpn/home.html", {})
+
+def office(request):
+    return render(request, "vpn/home.html", {})
+
+def placement(request):
+    return render(request, "vpn/home.html", {})
+
+def record(request):
+    return render(request, "vpn/home.html", {})
+
+def recruiters(request):
+    return render(request, "vpn/home.html", {})
+
+def internship(request):
+    return render(request, "vpn/home.html", {})
+
+def opportunities(request):
+    return render(request, "vpn/home.html", {})

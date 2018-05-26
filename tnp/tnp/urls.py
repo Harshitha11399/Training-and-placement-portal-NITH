@@ -20,6 +20,16 @@ urlpatterns = [
     # VPN interface is the default interface
     url(r'^$', include('vpn.urls')),
     url(r'^about/', include('vpn.urls')),
+    url(r'^contact/', include('vpn.urls')),
+    url(r'^how-to-reach/', include('vpn.urls')),
+    url(r'^functionaries/', include('vpn.urls')),
+    url(r'^directors-desk/', include('vpn.urls')),
+    url(r'^training-Placement-Office/', include('vpn.urls')),
+    url(r'^placement-procedure/', include('vpn.urls')),
+    url(r'^placement-record/', include('vpn.urls')),
+    url(r'^proud-recruiters/', include('vpn.urls')),
+    url(r'^internship-procedure/', include('vpn.urls')),
+    url(r'^training-internship-opportunities/', include('vpn.urls')),
     #admin interface
     url(r'^admin/', admin.site.urls),
 ]

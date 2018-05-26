@@ -8,4 +8,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return render(request, "vpn/index.html", {})
+    return render(request, "vpn/home.html", {})

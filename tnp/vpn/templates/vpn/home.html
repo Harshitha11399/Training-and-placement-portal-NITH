@@ -1,59 +1,7 @@
 {% load static %}
 {% include "vpn/header.html" %}
+{% include "vpn/navbar.html" %}
 
-
-<body>
-
-  <!--==========================
-    Header
-  ============================-->
-<div class="above-nav">
-  <div class="container">
-  	<a href=""><img src="{% static 'vpn/img/new-main-logo.png' %}" alt="Office of Training and Placement, NIT Hamirpur" title="Office of Training and Placement, NIT Hamirpur"></a>
-  </div>
-</div>
-  <header id="header">
-    <div class="container disp">
-
-      <div id="logo" class="pull-left">
-      	<h1><a href="" class="scrollto"><img src="{% static 'vpn/img/new-logo.png' %}" alt="Office of Training and Placement, NIT Hamirpur" title="Office of Training and Placement, NIT Hamirpur"></a></h1>
-        <!-- <h1><a href="#intro" class="scrollto">Avilon</a></h1>-->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu disp">
-          <li class="menu-has-children menu-active"><a href="#">Home</a>
-                <ul>
-                  <li><a href="#">Director's Desk</a></li>
-                  <li><a href="#">Training and Placement Office</a></li>
-              	</ul>
-           </li>
-           <li class="menu-has-children"><a href="#">Placements</a>
-           		<ul>
-                  <li><a href="#">Placement Procedure</a></li>
-                  <li><a href="#">Placement Record</a></li>
-                  <li><a href="#">Proud Recruiters</a></li>
-              	</ul>
-           </li>
-          <li class="menu-has-children"><a href="#">Training/Internship</a>
-          		<ul>
-                  <li><a href="#">Internship Procedure</a></li>
-                  <li><a href="#">Training/Internship Opportunities at NITH</a></li>
-              	</ul>
-          </li>
-          <li><a href="#gallery">TnP Functionaries</a></li>
-          <li class="menu-has-children"><a href="#">Miscellaneous</a>
-                <ul>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">How To Reach NIT Hamirpur</a></li>
-              	</ul>
-           </li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
 
   <!--==========================
     Intro Section
@@ -83,29 +31,9 @@
 
         <div class="row">
           <div class="col-lg-4 about-img wow fadeInLeft">
-            <div class="card">
-  			<div class="card-header">
-              <b>Placement Breifs at NIT Hamirpur</b></h5>
-              </div>
-  			<div class="card-body">
-              <li>Placement brief 1 here.</li>
-              <li>Placement brief 2 here.</li>
-              <li>Placement brief 3 here.</li>
-              <li>Placement brief 4 here.</li>
-            </div>
-        	</div><br>
 
-            <div class="card">
-  			<div class="card-header">
-              <b>Latest Placement news</b></h5>
-              </div>
-  			<div class="card-body">
-              <li>Placement news 1 here.</li>
-              <li>Placement news 2 here.</li>
-              <li>Placement news 3 here.</li>
-              <li>Placement news 4 here.</li>
-            </div>
-        	</div><br>
+            {% include "vpn/placement_breifs.html" %}
+            {% include "vpn/placement_news.html" %}
 
           </div>
 

@@ -9,3 +9,6 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, "vpn/home.html", {})
+
+def about(request):
+    return render(request, "vpn/home.html", {})

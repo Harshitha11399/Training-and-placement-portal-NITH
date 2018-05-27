@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Satisfy');
 body {
   background: #fff;
   color: #666666;
@@ -135,7 +136,8 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-fixed {
   //background: linear-gradient(45deg,  #186a3b ,  #154360 );
   //background: linear-gradient(45deg,  #1d8348, #1a5276 );
-  background: linear-gradient(45deg,   #28b463, #2471a3);
+  //background: linear-gradient(45deg,   #28b463, #2471a3);
+  background: linear-gradient(45deg,   #17202a, #2e4053 );
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -151,11 +153,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home   {
-  background: linear-gradient(45deg, rgba( 171, 235, 198, 0.2), rgba(169, 204, 227, 0.2)), url("../img/gate.jpeg") center top no-repeat;
+  background: linear-gradient(45deg, rgba( 171, 235, 198, 0.3), rgba(169, 204, 227, 0.3)), url("../img/gate.jpeg") center top no-repeat;
 }
 
 .contact  {
-  background: linear-gradient(45deg, rgba( 171, 235, 198, 0.2), rgba(169, 204, 227, 0.2)), url("../img/sample1.jpg") center top no-repeat;
+  background: linear-gradient(45deg, rgba( 171, 235, 198, 0.3), rgba(169, 204, 227, 0.3)), url("../img/sample1.jpg") center top no-repeat;
 }
 
 @media (min-width: 1024px) {
@@ -196,6 +198,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 400;
   line-height: 56px;
+  //font-family: 'Courgette', cursive;
+  font-family: 'Satisfy', cursive;
   color: #fff;
   text-shadow: 2px 2px 3px #000;
 }
@@ -363,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Meu Styling */
 .nav-menu a {
-  padding: 0 8px 9px 8px;
+  padding: 0 8px 8px 8px;
   display: inline-block;
   color: #fff;
   font-family: "Montserrat", sans-serif;

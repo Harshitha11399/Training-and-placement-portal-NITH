@@ -18,7 +18,7 @@ from django.contrib import admin
 
 urlpatterns = [
     # VPN interface is the default interface
-    url(r'^$', include('vpn.urls')),
+    url(r'', include('vpn.urls')),
     url(r'^about/', include('vpn.urls')),
     url(r'^contact/', include('vpn.urls')),
     url(r'^how-to-reach/', include('vpn.urls')),

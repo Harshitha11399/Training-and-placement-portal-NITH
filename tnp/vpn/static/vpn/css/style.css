@@ -131,6 +131,10 @@ h1, h2, h3, h4, h5, h6 {
   #header #logo img {
     max-height: 40px;
   }
+  #team .member .pic img {
+  height: 100%;
+  width: auto;
+}
 }
 
 #header.header-fixed {
@@ -1042,7 +1046,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  height: 100%;
+  width: auto;
 }
 
 #team .member h4 {

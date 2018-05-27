@@ -1,5 +1,5 @@
 #custom ignored files
-libreswan_managing_interface/database.cnf
+tnp/tnp/database.cnf
 
 # Created by https://www.gitignore.io
 

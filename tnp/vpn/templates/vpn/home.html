@@ -12,7 +12,7 @@
       <h2>May all who enter as recruiters,<br> leave as associates of NIT Hamirpur.</h2>
     </div>
     <div class="intro-text1">
-    <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    <a href="#about" class="btn-get-started scrollto border-secondary">Get Started</a>
     </div>
   </section><!-- #intro -->
 
@@ -24,11 +24,7 @@
     ============================-->
     <section id="about" class="section-bg">
       <div class="container-fluid">
-        <div class="section-header">
-          <h3 class="section-title"><img style="width: 120px;" src="{% static 'vpn/img/logo.png' %}" /><br><br>Training and Placement Office</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Training & Placement department was established in this institute in the year 1995. Since then lots of activities are being conducted within the ambit of this department for the benefit of students.</p>
-        </div>
+
 
         <div class="row">
           <div class="col-lg-4 about-img wow fadeInLeft">
@@ -38,12 +34,15 @@
 
           </div>
 
-          <div class="col-lg-8 content wow fadeInRight">
+          <div class="col-lg-8 content wow fadeInRight card border-light">
           	
-  			
-            <h2>Title of the post here</h2>
-            
-            <h3>A brief description of the post here.</h3>
+  			     <div class="section-header">
+          <h1 class="section-title"><img style="width: 120px;" src="{% static 'vpn/img/logo.png' %}" /><br><br>Training and Placement Office</h1>
+          <span class="section-divider"></span>
+          <p class="section-description">Training & Placement department was established in this institute in the year 1995. Since then lots of activities are being conducted within the ambit of this department for the benefit of students.</p>
+        </div>
+        <hr>
+
             <p>
               More than 75% of total students placed under campus placement.Recruitment for every batch starts from August onwards.Above 30% of students are getting more than one placement. 
             </p>
@@ -54,14 +53,14 @@
             </ul>
 
             <p>
-               In every branch about 15% students crack various post graduate exams like CAT, GRE, GATE, GMAT etc. These students get recruited by top universities around the world. 
+               In every branch about 15% students crack various post graduate exams like CAT, GRE, GATE, GMAT etc. These students get recruited by top universities around the world. <br><br>
             </p>
           
 	    </div>
 	</div>
-
       </div>
     </section><!-- #about -->
+    {% include "vpn/company_slider.html" %}
 
 
 

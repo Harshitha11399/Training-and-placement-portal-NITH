@@ -10,30 +10,29 @@
     ============================-->
     <section id="about" class="section-bg">
       <div class="container-fluid">
-        <div class="section-header">
-          <h3 class="section-title">How to Reach NIT Hamirpur</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Training & Placement department was established in this institute in the year 1995. Since then lots of activities are being conducted within the ambit of this department for the benefit of students.</p>
-        </div>
 
         <div class="row">
           <div class="col-lg-4 about-img wow fadeInLeft">
 
-            {% include "vpn/placement_breifs.html" %}
+            {% include "vpn/forms_invitations.html" %}
             {% include "vpn/placement_news.html" %}
 
           </div>
 
-          <div class="col-lg-8 content wow fadeInRight">
-          	
-  		
+          <div class="col-lg-8 content wow fadeInRight card border-light">
+            
+            <div class="section-header">
+          <h1 class="section-title">How to reach NIT Hamirpur</h1>
+          <span class="section-divider"></span>
+        </div>
+        <hr>  
 
             <table class="table table-bordered">
               <tbody>
                 <tr>
-                  <th scope="row"><i class="ion-ios-arrow-forward"></i>Via Road</th>
+                  <th scope="row"><i class="ion-ios-arrow-forward"></i><i class="ion-ios-email-outline"></i>Email id's:</th>
                   <td colspan="2"><ul>
-                    <li><i class="ion-android-arrow-dropright"></i>Content here</li>
+                    <li><i class="ion-android-arrow-dropright"></i><a href="mailto:tpo@nith.ac.in" target="_top">tpo@nith.ac.in</a></li>
                     <li><i class="ion-android-arrow-dropright"></i><a href="mailto:tponith@gmail.com" target="_top">tponith@gmail.com</a></li>
                   </ul></td>
                 </tr>
@@ -59,11 +58,12 @@
             </table>
 
           
-	    </div>
-	</div>
+      </div>
+  </div>
 
       </div>
     </section><!-- #about -->
+    {% include "vpn/company_slider.html" %}
 
 
 

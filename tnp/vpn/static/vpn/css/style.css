@@ -19,7 +19,12 @@ a:hover, a:active, a:focus {
 
 p {
   padding: 0;
+  font-size: 14px;
   margin: 0 0 30px 0;
+}
+
+li  {
+  font-size:14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +32,32 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+}
+
+h2  {
+  font-size: 20px;
+}
+
+h3  {
+  font-size: 15px;
+}
+#container1 {
+  overflow: hidden;
+  width: 100%;
+  height: 75px;
+}
+
+#imgs li {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+#imgs img {
+  height: 70px;
+}
+.section-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Back to top button */
@@ -57,11 +88,35 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+#main   {
+  padding-left: 8%;
+  padding-right: 8%;
+  background:url(../img/patterns/pattern1vert.png) fixed center center;
+}
+.col-lg-8 {
+
+}
+.card-header  {
+  font-size: 15px;
+}
+
+.card-body  {
+  font-size: 14px;
+  height: 200px;
+  overflow-y: hidden;
+}
+
+.col > .card > .card-body   {
+  height: auto;
+}
+
 .above-nav{
   height: 92px;
   top: 0;
   //background: linear-gradient(45deg, #1de099, #1dc8cd);
+  //background-color: #ebec8f;
   background-color: white;
+  //background:url(../img/patterns/pattern2.jpg) fixed center center;
   display: block;
   z-index: 999;
 }
@@ -138,10 +193,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  //background: linear-gradient(45deg,  #186a3b ,  #154360 );
+  background: linear-gradient(45deg, #802050 , #802050 );
   //background: linear-gradient(45deg,  #1d8348, #1a5276 );
   //background: linear-gradient(45deg,   #28b463, #2471a3);
-  background: linear-gradient(45deg,   #17202a, #2e4053 );
+  //background: linear-gradient(45deg,   #17202a, #2e4053 );
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -373,7 +428,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   padding: 0 8px 8px 8px;
   display: inline-block;
-  color: #fff;
+  color: #ebec8f;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -528,7 +583,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Sections Header
 --------------------------------*/
 .section-header .section-title {
-  font-size: 32px;
+  font-size: 22px;
   color: #111;
   text-align: center;
   font-weight: 400;
@@ -536,8 +591,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-description {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   color: #777;
+  font-size: 15px;
   font-style: italic;
 }
 
@@ -554,7 +610,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #eff5f5;
+  background:url(../img/patterns/pattern1vert.png) fixed center center;
 }
 
 /* About Us Section
@@ -593,7 +649,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content h3 {
   color: #777;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 26px;
   font-style: italic;
 }
@@ -705,7 +761,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features h3 {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   font-weight: 400;
   font-style: italic;
@@ -911,7 +967,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #pricing h3 {
   font-weight: 400;
   margin-bottom: 15px;
-  font-size: 28px;
+  font-size: 15px;
 }
 
 #pricing h4 {
@@ -1137,7 +1193,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-about h3 {
-  font-size: 36px;
+  font-size: 15px;
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
@@ -1255,7 +1311,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
   color: #333;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #footer .credits {

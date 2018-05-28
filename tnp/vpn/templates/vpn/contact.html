@@ -10,23 +10,22 @@
     ============================-->
     <section id="about" class="section-bg">
       <div class="container-fluid">
-        <div class="section-header">
-          <h3 class="section-title">Contact Us</h3>
-          <span class="section-divider"></span>
-        </div>
 
         <div class="row">
           <div class="col-lg-4 about-img wow fadeInLeft">
 
-            {% include "vpn/placement_breifs.html" %}
+            {% include "vpn/forms_invitations.html" %}
             {% include "vpn/placement_news.html" %}
 
           </div>
 
-          <div class="col-lg-8 content wow fadeInRight">
-          	
-  			
-            <h2>Reach us via -</h2>
+          <div class="col-lg-8 content wow fadeInRight card border-light">
+            
+            <div class="section-header">
+          <h1 class="section-title">Contact Us</h1>
+          <span class="section-divider"></span>
+        </div>
+        <hr>	
 
             <table class="table table-bordered">
               <tbody>
@@ -64,6 +63,7 @@
 
       </div>
     </section><!-- #about -->
+    {% include "vpn/company_slider.html" %}
 
 
 

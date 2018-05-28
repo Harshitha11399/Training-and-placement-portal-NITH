@@ -1,0 +1,33 @@
+{% load static %}
+    <section id="clients">
+<script src="{% static 'vpn/lib/jquery/jquery.min.js' %}"></script>
+
+
+<div class="row wow fadeInRight">
+<div id="container1">
+  <ul id="imgs">
+    		<li><img src="{% static 'vpn/img/team/abc.jpg' %}" alt=""></li>
+            <li><img src="{% static 'vpn/img/team/client-5.png' %}" alt=""></li>
+            <li><img src="{% static 'vpn/img/team/asds.png' %}" alt=""></li>
+            <li><img src="{% static 'vpn/img/team/client-5.png' %}" alt=""></li>
+            <li><img src="{% static 'vpn/img/team/client-1.png' %}" alt=""></li>
+            <li><img src="{% static 'vpn/img/team/new.png' %}" alt=""></li>
+            <li><img src="{% static 'vpn/img/team/abc.jpg' %}" alt=""></li>
+            <li><img src="{% static 'vpn/img/team/asds.png' %}" alt=""></li>
+            <li><img src="{% static 'vpn/img/team/client-5.png' %}" alt=""></li>
+            <li><img src="{% static 'vpn/img/team/client-1.png' %}" alt=""></li>
+            <li><img src="{% static 'vpn/img/team/new.png' %}" alt=""></li>
+  </ul>
+</div>
+<script src="{% static 'vpn/js/ImageScroll.js' %}"></script> 
+<script type="text/javascript">
+  $('#imgs').imageScroll({
+    orientation:"left",
+    speed:400,
+    interval:1200,
+    hoverPause:false,
+  });
+  </script>
+
+        </div>
+    </section><!-- #more-features -->

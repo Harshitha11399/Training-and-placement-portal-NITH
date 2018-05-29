@@ -3,13 +3,16 @@ body {
   padding-top: 55px;
   padding-left: 55px;
   padding-right: 55px;
-  background:url(../img/patterns/pattern.png),url(../img/patterns/patternvert.png),url(../img/patterns/patternvert.png);
-  background-position: top left, top left, top right;
+  padding-bottom: 55px;
+  background:url(../img/patterns/pattern.png),url(../img/patterns/pattern.png),url(../img/patterns/patternvert.png),url(../img/patterns/patternvert.png);
+  background-position: top left, bottom left, top left, top right;
   background-repeat: no-repeat;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
   background-color: #fdfdc1;
 }
+
+
 
 a {
   color: #1dc8cd;
@@ -69,8 +72,8 @@ h3  {
 .back-to-top {
   position: fixed;
   display: none;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
-  color: #fff;
+  background: linear-gradient(45deg, #802050 , #802050);
+  color: #ebec8f;
   padding: 2px 20px 8px 20px;
   font-size: 16px;
   border-radius: 4px 4px 0 0;
@@ -80,14 +83,14 @@ h3  {
 }
 
 .back-to-top:focus {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #802050 , #802050);
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #1dc8cd;
-  color: #fff;
+  background: linear-gradient(45deg, #ebec8f , #ebec8f);
+  color: #802050;
 }
 
 /*--------------------------------------------------------------
@@ -291,15 +294,8 @@ h3  {
   color: #fff;
   margin-bottom: 20px;
   padding: 0 15px;
-  font-size: 24px;
-}
-
-@media (max-width: 768px) {
-  #intro p {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 20px;
-  }
+  font-size: 18px;
+  line-height: 24px;
 }
 
 #intro .btn-get-started {
@@ -459,7 +455,7 @@ h3  {
   margin: 4px 0 0 0;
   padding: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  background: #fff;
+  background: #802050;
 }
 
 .nav-menu ul li {
@@ -468,7 +464,7 @@ h3  {
 
 .nav-menu ul li a {
   padding: 10px;
-  color: #333;
+  color: #ebec8f;
   transition: 0.3s;
   display: block;
   font-size: 13px;
@@ -476,7 +472,7 @@ h3  {
 }
 
 .nav-menu ul li:hover > a {
-  color: #1dc8cd;
+  color: #fff;
 }
 
 .nav-menu ul ul {
@@ -516,7 +512,7 @@ h3  {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
+  background: #802050;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -534,7 +530,7 @@ h3  {
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+  color: #ebec8f;
   font-size: 16px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -563,11 +559,11 @@ h3  {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #1dc8cd;
+  color: #ebec8f;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #1dc8cd;
+  color: #ebec8f;
 }
 
 #mobile-body-overly {

@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Satisfy');
 body {
-  background: #fff;
-  color: #666666;
+  padding-top: 55px;
+  padding-left: 55px;
+  padding-right: 55px;
+  background:url(../img/patterns/pattern.png),url(../img/patterns/patternvert.png),url(../img/patterns/patternvert.png);
+  background-position: top left, top left, top right;
+  background-repeat: no-repeat;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+  background-color: #fdfdc1;
 }
 
 a {
@@ -93,28 +98,30 @@ h3  {
   padding-right: 8%;
   padding-top: 3%;
   padding-bottom: 3%;
-  background:url(../img/patterns/pattern1vert.png) fixed center center;
+  background-color: #fdfdc1;
 }
 .col-lg-8 {
-  background-image: url(../img/patterns/border-top-left.png), url(../img/patterns/border-top-right.png), url(../img/patterns/border-bottom-left.png), url(../img/patterns/border-bottom-right.png), url(../img/patterns/wallpaper0.png);
-  background-position: top left, top right, bottom left, bottom right, center;
+  background-image:  url(../img/patterns/border-top-right.png), url(../img/patterns/border-bottom-left.png);
+  background-color: #f3d6aa;
+  background-position: top right, bottom left;
   background-repeat: no-repeat;
   padding: 20px;
 }
 
 .card-header  {
   font-size: 15px;
+  background-color: #f3d6aa;
   //background:url(../img/patterns/pattern2.jpg) center;
 }
 
 .card-body  {
   font-size: 14px;
   height: 200px;
+  background-color: #f3d6aa;
   overflow-y: hidden;
 }
 .card-body img {
   width: 80%;
-  padding-left: 20%;
 }
 .col > .card > .card-body   {
   height: auto;
@@ -620,8 +627,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background:url(../img/kangra.jpg) fixed center no-repeat;
-  background-size: cover;
+  //background:url(../img/kangra.jpg) fixed center no-repeat;
+  //background-size: cover;
+  background-color: #fdfdc1;
 }
 
 /* About Us Section

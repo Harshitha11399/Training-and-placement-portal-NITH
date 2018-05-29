@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../libreswan/.idea/libreswan.iml" filepath="$PROJECT_DIR$/../libreswan/.idea/libreswan.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/training.iml" filepath="$PROJECT_DIR$/.idea/training.iml" />
     </modules>
   </component>

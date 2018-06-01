@@ -3,9 +3,8 @@ body {
   padding-top: 55px;
   padding-left: 55px;
   padding-right: 55px;
-  padding-bottom: 55px;
-  background:url(../img/patterns/pattern.png),url(../img/patterns/pattern.png),url(../img/patterns/patternvert.png),url(../img/patterns/patternvert.png);
-  background-position: top left, bottom left, top left, top right;
+  background:url(../img/patterns/pattern.png),url(../img/patterns/patternvert.png),url(../img/patterns/patternvert.png);
+  background-position: top left, top 52px left,top 52px right;
   background-repeat: no-repeat;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;

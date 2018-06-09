@@ -2,6 +2,18 @@
 {% include "vpn/header.html" %}
 {% include "vpn/navbar.html" %}
 
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="home">
+
+    <div class="intro-text1">
+    <a href="#about" style="margin-left: 68px;" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- #intro -->
+  <img style="z-index: -15" src="{% static 'vpn/img/patterns/pattern.png' %}">
+
   <main id="main">
 
 
@@ -11,57 +23,42 @@
     <section id="about" class="section-bg">
       <div class="container-fluid">
 
+
         <div class="row">
           <div class="col-lg-4 about-img wow fadeInLeft">
 
             {% include "vpn/sidebar_slider.html" %}
-            {% include "vpn/forms_invitations.html" %}
+            {% include "vpn/placement_breifs.html" %}
             {% include "vpn/placement_news.html" %}
 
           </div>
 
-          <div class="col-lg-8 content wow fadeInRight card border-light">
+          <div class="col-lg-8 content wow fadeInRight card">
+      
             
-            <div class="section-header">
-          <h1 class="section-title">About Us</h1>
+             <div class="section-header">
+          <h1 class="section-title"><img style="width: 120px;" src="{% static 'vpn/img/logo.png' %}" /><br><br>Training and Placement Office</h1>
           <span class="section-divider"></span>
         </div>
-        <hr>	
+        
+            <p style="text-align: justify;">Please accept best Greetings from NIT Hamirpur!<br>
+We take this proud opportunity to invite your esteemed organization to participate in our campus placement process for the session 2018-19.<br>
 
-            <table class="table table-bordered">
-              <tbody>
-                <tr>
-                  <th scope="row"><i class="ion-ios-arrow-forward"></i><i class="ion-ios-email-outline"></i>Email id's:</th>
-                  <td colspan="2"><ul>
-                    <li><i class="ion-android-arrow-dropright"></i><a href="mailto:tpo@nith.ac.in" target="_top">tpo@nith.ac.in</a></li>
-                    <li><i class="ion-android-arrow-dropright"></i><a href="mailto:tponith@gmail.com" target="_top">tponith@gmail.com</a></li>
-                  </ul></td>
-                </tr>
-                <tr>
-                  <th scope="row"><i class="ion-ios-arrow-forward"></i><i class="ion-ios-telephone-outline"></i>Phone no's:</th>
-                  <td colspan="2"><ul>
-                    <li><i class="ion-android-arrow-dropright"></i>01972-254591 (Office)</li>
-                    <li><i class="ion-android-arrow-dropright"></i>09805715100 (Mobile)</li>
-                  </ul></td>
-                </tr>
-                <tr>
-                  <th scope="row"><i class="ion-ios-arrow-forward"></i><i class="ion-ios-location-outline"></i>Address:</th>
-                  <td colspan="2"><ul>
-                    <li><i class="ion-android-arrow-dropright"></i>Dr.Somesh Sharma<br>
-                          Training and Placement Officer<br>
-                          National Institute Of Technology, Hamirpur<br>
-                          Hamirpur, Himachal Pradesh<br>
-                          PIN 177 005<br>
-                          India </li>
-                  </ul></td>
-                </tr>
-              </tbody>
-            </table>
+National Institute of Technology Hamirpur is the Technological Hub of our Green and Clean Himachal Pradesh and it offers peaceful and serene environment for the academic growth. Over a period of time, the Institute has made its place amongst the leading technical institutions of the country. Institute offers Ph. D., M.Tech/M.Arch., MBA, B.Arch and accredited B.Tech programs in Civil, Mechanical, Electronics, Electrical, and Computer Engineering that justify our reputation as a centre of higher learning. Excellent infrastructure, congenial teaching learning ambience, committed faculty, significant contribution to research work and commitment to the community are our hallmark.<br>
 
+We are highly grateful that you aim to get associate with NIT Hamirpur for recruiting our students. We hope that this association of our Institute with your reputed Organization will go long way towards the growth of industry, academia and Nation itself.<br><br>
+ 
+With Warm regards,<br>
+ 
+Dr. Somesh Kr. Sharma<br>
+Training and Placement Officer<br>
+NIT Hamirpur<br>
+Email: <a href="mailto:tpo@nith.ac.in">tpo@nith.ac.in</a><br>
+01972-254591, 254590<br>
+9805715100<br>
           
-	    </div>
-	</div>
-
+      </div>
+  </div>
       </div>
     </section><!-- #about -->
     {% include "vpn/company_slider.html" %}

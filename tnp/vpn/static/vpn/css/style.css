@@ -10,17 +10,13 @@ body {
   overflow-x: hidden;
   background-color: #fdfdc1;
 }
-
-
-
 a {
-  color: #1dc8cd;
+  color: #802050;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #1dc9ce;
-  outline: none;
+  color: #802050;
   text-decoration: none;
 }
 
@@ -48,6 +44,21 @@ h2  {
 h3  {
   font-size: 15px;
 }
+li  {
+  text-align: justify;
+}
+.row {
+  padding-top: 10px;
+}
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        padding-top: 5%;
+        max-width: 100%; }    }
+.badge-color  {
+  background-color: #802050;
+}
 #container1 {
   overflow: hidden;
   width: 100%;
@@ -66,6 +77,35 @@ h3  {
 .section-header {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.text-block {
+    position: absolute;
+    text-align: justify;
+    top: 740px;
+    left: 20px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+.text-block1 {
+    position: absolute;
+    text-align: justify;
+    top: 300px;
+    left: 20px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 430px;
+}
+.text-block3 {
+    position: absolute;
+    text-align: justify;
+    top: 830px;
+    left: 20px;
+    color: black;
+    padding-left: 25px;
+    padding-right: 45px;
 }
 
 /* Back to top button */
@@ -108,13 +148,14 @@ h3  {
   background-color: #f3d6aa;
   background-position: top right, bottom left;
   background-repeat: no-repeat;
-  padding: 20px;
+  padding: 35px;
 }
 
 .card-header  {
   font-size: 15px;
   background-color: #f3d6aa;
   //background:url(../img/patterns/pattern2.jpg) center;
+  border-color: #802050;
 }
 
 .card-body  {
@@ -122,12 +163,16 @@ h3  {
   height: 200px;
   background-color: #f3d6aa;
   overflow-y: hidden;
+  border-color: #802050;
 }
 .card-body img {
   width: 80%;
 }
 .col > .card > .card-body   {
   height: auto;
+}
+.border-me {
+  border-color: #802050;
 }
 
 .above-nav{
@@ -617,8 +662,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 60px;
   height: 3px;
-  background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: #802050;
+  background: linear-gradient(0deg, #802050 0%, #802050 100%);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -683,7 +728,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1dc8cd;
+  color: #802050;
 }
 
 #about .content ul {
@@ -839,9 +884,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #call-to-action {
   overflow: hidden;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/director.png) fixed center center;
   background-size: cover;
-  padding: 80px 0;
 }
 
 #call-to-action .cta-title {
@@ -1338,7 +1382,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-links a {
-  color: #666;
+  color: #802050;
 }
 
 #footer .footer-links a:first-child {
@@ -1346,5 +1390,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-links a:hover {
-  color: #1dc8cd;
+  color: #802050;
+  font-weight: 600;
 }

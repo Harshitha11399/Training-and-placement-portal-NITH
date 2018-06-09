@@ -47,6 +47,9 @@ h3  {
 li  {
   text-align: justify;
 }
+.tbh {
+  font-size: 14px;
+}
 .row {
   padding-top: 10px;
 }

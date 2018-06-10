@@ -21,6 +21,7 @@ urlpatterns = [
     url(r'', include('vpn.urls')),
     url(r'^about/', include('vpn.urls')),
     url(r'^contact/', include('vpn.urls')),
+    url(r'^facilities/', include('vpn.urls')),
     url(r'^how-to-reach/', include('vpn.urls')),
     url(r'^functionaries/', include('vpn.urls')),
     url(r'^directors-desk/', include('vpn.urls')),

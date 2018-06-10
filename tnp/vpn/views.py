@@ -16,6 +16,9 @@ def about(request):
 def contact(request):
     return render(request, "vpn/contact.html", {})
 
+def facilities(request):
+    return render(request, "vpn/facilities.html", {})
+
 def reach(request):
     return render(request, "vpn/reach.html", {})
 

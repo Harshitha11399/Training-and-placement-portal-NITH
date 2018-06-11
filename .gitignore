@@ -1,6 +1,7 @@
 #custom ignored files
 tnp/tnp/database.cnf
 .idea/
+tnpenv/
 
 # Created by https://www.gitignore.io
 

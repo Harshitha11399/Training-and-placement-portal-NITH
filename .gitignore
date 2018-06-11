@@ -1,6 +1,6 @@
 #custom ignored files
 tnp/tnp/database.cnf
-.idea/workspace.xml
+.idea/
 
 # Created by https://www.gitignore.io
 

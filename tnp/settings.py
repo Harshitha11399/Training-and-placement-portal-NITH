@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'OPTIONS': {
-            'read_default_file': '/var/www/html/training/tnp/tnp/database.cnf',
+            'read_default_file': '/var/www/html/training/tnp/database.cnf',
         },
     }
 }

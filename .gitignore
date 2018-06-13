@@ -1,5 +1,5 @@
 #custom ignored files
-tnp/tnp/database.cnf
+tnp/database.cnf
 .idea/
 tnpenv/
 

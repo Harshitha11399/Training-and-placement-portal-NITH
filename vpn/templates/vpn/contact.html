@@ -1,75 +1,72 @@
-{% load static %}
-{% include "vpn/header.html" %}
-{% include "vpn/navbar.html" %}
+{% load static %} {% include "vpn/header.html" %} {% include "vpn/navbar.html" %}
 
-  <main id="main">
-
+<main id="main">
 
     <!--==========================
       About Us Section
     ============================-->
     <section id="about" class="section-bg">
-      <div class="container-fluid">
+        <div class="container-fluid">
 
-        <div class="row">
-          <div class="col-lg-4 about-img wow fadeInLeft">
+            <div class="row">
+                <div class="col-lg-4 about-img wow fadeInLeft">
 
-            {% include "vpn/sidebar_slider.html" %}
-            {% include "vpn/forms_invitations.html" %}
-            {% include "vpn/placement_news.html" %}
+                    {% include "vpn/sidebar_slider.html" %} {% include "vpn/forms_invitations.html" %} {% include "vpn/placement_news.html" %}
 
-          </div>
+                </div>
 
-          <div class="col-lg-8 content wow fadeInRight card border-light">
-            
-            <div class="section-header">
-          <h1 class="section-title">Contact Us</h1>
-          <span class="section-divider"></span>
+                <div class="col-lg-8 content wow fadeInRight card border-light">
+
+                    <div class="section-header">
+                        <h1 class="section-title">Contact Us</h1>
+                        <span class="section-divider"></span>
+                    </div>
+
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row"><i class="ion-ios-arrow-forward"></i><i class="ion-ios-email-outline"></i>Email id's:</th>
+                                <td colspan="2">
+                                    <ul>
+                                        <li><i class="ion-android-arrow-dropright"></i><a href="mailto:tpo@nith.ac.in" target="_top">tpo@nith.ac.in</a></li>
+                                        <li><i class="ion-android-arrow-dropright"></i><a href="mailto:tponith@gmail.com" target="_top">tponith@gmail.com</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="ion-ios-arrow-forward"></i><i class="ion-ios-telephone-outline"></i>Phone no's:</th>
+                                <td colspan="2">
+                                    <ul>
+                                        <li><i class="ion-android-arrow-dropright"></i>01972-254591 (Office)</li>
+                                        <li><i class="ion-android-arrow-dropright"></i>09805715100 (Mobile)</li>
+                                        <li><i class="ion-android-arrow-dropright"></i>09816597949 (Mobile)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="ion-ios-arrow-forward"></i><i class="ion-ios-location-outline"></i>Address:</th>
+                                <td colspan="2">
+                                    <ul>
+                                        <li><i class="ion-android-arrow-dropright"></i>Dr.Somesh Sharma
+                                            <br> Training and Placement Officer
+                                            <br> National Institute Of Technology, Hamirpur
+                                            <br> Hamirpur, Himachal Pradesh
+                                            <br> PIN 177 005
+                                            <br> India </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
         </div>
-
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th scope="row"><i class="ion-ios-arrow-forward"></i><i class="ion-ios-email-outline"></i>Email id's:</th>
-                  <td colspan="2"><ul>
-                    <li><i class="ion-android-arrow-dropright"></i><a href="mailto:tpo@nith.ac.in" target="_top">tpo@nith.ac.in</a></li>
-                    <li><i class="ion-android-arrow-dropright"></i><a href="mailto:tponith@gmail.com" target="_top">tponith@gmail.com</a></li>
-                  </ul></td>
-                </tr>
-                <tr>
-                  <th scope="row"><i class="ion-ios-arrow-forward"></i><i class="ion-ios-telephone-outline"></i>Phone no's:</th>
-                  <td colspan="2"><ul>
-                    <li><i class="ion-android-arrow-dropright"></i>01972-254591 (Office)</li>
-                    <li><i class="ion-android-arrow-dropright"></i>09805715100 (Mobile)</li>
-                    <li><i class="ion-android-arrow-dropright"></i>09816597949 (Mobile)</li>
-                  </ul></td>
-                </tr>
-                <tr>
-                  <th scope="row"><i class="ion-ios-arrow-forward"></i><i class="ion-ios-location-outline"></i>Address:</th>
-                  <td colspan="2"><ul>
-                    <li><i class="ion-android-arrow-dropright"></i>Dr.Somesh Sharma<br>
-                          Training and Placement Officer<br>
-                          National Institute Of Technology, Hamirpur<br>
-                          Hamirpur, Himachal Pradesh<br>
-                          PIN 177 005<br>
-                          India </li>
-                  </ul></td>
-                </tr>
-              </tbody>
-            </table>
-
-          
-	    </div>
-	</div>
-
-      </div>
-    </section><!-- #about -->
+    </section>
+    <!-- #about -->
     {% include "vpn/company_slider.html" %}
 
+</main>
 
-
-
-  </main>
-
-
-  {% include "vpn/footer.html" %}
+{% include "vpn/footer.html" %}

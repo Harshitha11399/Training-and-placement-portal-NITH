@@ -1,6 +1,6 @@
 # Training-and-placement-portal-NITH
 
-Managing Interface for Training and placement portal NITH.
+Managing Interface for Training and placement portal NITH. [View Demo](http://159.89.167.123/)
 
 * The project is built using [django](https://github.com/django/django).
 * Django version - [1.11.13](https://www.djangoproject.com/weblog/2015/jun/25/roadmap/) LTS.

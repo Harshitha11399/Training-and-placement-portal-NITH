@@ -1,5 +1,0 @@
-[client]
-database = tnp
-user = root
-password = hey
-default-character-set = utf8

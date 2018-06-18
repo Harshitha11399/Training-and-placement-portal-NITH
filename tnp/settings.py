@@ -25,7 +25,7 @@ SECRET_KEY = 'z!w9pzi!lj!72rl#5jkr6v+j3r=!)-!kb2ohlk!nq2(vuhvljq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['159.89.167.123','localhost','127.0.0.1','0.0.0.0']
 
 
 # Application definition
@@ -73,16 +73,26 @@ WSGI_APPLICATION = 'tnp.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'OPTIONS': {
-            'read_default_file': '/var/www/html/training/tnp/database.cnf',
+            'read_default_file': '/var/www/html/tpowebsite/tnp/tnp/database.cnf',
         },
     }
 }
-
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'tnp',
+        'USER': 'root',
+        'PASSWORD': 'itsapass',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
 
 
 # Password validation

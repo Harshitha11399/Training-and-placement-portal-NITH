@@ -29,7 +29,7 @@ urlpatterns = [
     url(r'^training-Placement-Office/', views.office, name='office'),
     url(r'^placement-procedure/', views.placement, name='placement'),
     url(r'^placement-record/', views.record, name='record'),
-    url(r'^proud-recruiters/', views.recruiters, name='recruiters'),
+    url(r'^past-recruiters/', views.recruiters, name='recruiters'),
     url(r'^internship-procedure/', views.internship, name='internship'),
     url(r'^training-internship-opportunities/', views.opportunities, name='opportunities'),
 ]

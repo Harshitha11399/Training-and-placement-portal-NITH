@@ -1,30 +1,14 @@
-{% load static %}
+{% load static loadimages %}
 <section id="clients">
     <script src="{% static 'vpn/lib/jquery/jquery.min.js' %}"></script>
-
+<center><h2>Present Recruiters</h2></center>
     <div class="row wow fadeInRight">
         <div id="container1">
             <ul id="imgs">
-                <li><img src="{% static 'vpn/img/companies/accen.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/ang.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/bloomberg.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/bosch.jpg' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/cap.jpg' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/godrej.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/hsbc.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/ibm.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/infosys.jpg' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/jio.jpg' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/jp.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/lnt.jpg' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/wipro.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/united.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/uhg.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/sap.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/samsung.png' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/oracle.jpg' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/maruti.jpg' %}" alt=""></li>
-                <li><img src="{% static 'vpn/img/companies/lntin.png' %}" alt=""></li>
+                {% img_names as queries %}
+                {% for query in queries %}
+                <li><img src="{% static 'vpn/img/companies/' %}{{ query }}" alt="Company logo - {{ query }}"></li>
+                {% endfor %}
             </ul>
         </div>
         <script src="{% static 'vpn/js/ImageScroll.js' %}"></script>

@@ -147,6 +147,14 @@ jQuery(document).ready(function($) {
 
 setInterval(blinker, 1000);
 
+//blink for footer name
+function blinkerit() {
+    $('.blink_it').fadeOut(500);
+    $('.blink_it').fadeIn(500);
+}
+
+setInterval(blinkerit, 2000);
+
 
 
 

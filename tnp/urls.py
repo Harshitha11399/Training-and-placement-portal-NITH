@@ -28,9 +28,10 @@ urlpatterns = [
     url(r'^training-Placement-Office/', include('vpn.urls')),
     url(r'^placement-procedure/', include('vpn.urls')),
     url(r'^placement-record/', include('vpn.urls')),
-    url(r'^proud-recruiters/', include('vpn.urls')),
+    url(r'^past-recruiters/', include('vpn.urls')),
     url(r'^internship-procedure/', include('vpn.urls')),
     url(r'^training-internship-opportunities/', include('vpn.urls')),
     #admin interface
     url(r'^admin/', admin.site.urls),
 ]
+

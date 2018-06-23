@@ -68,6 +68,12 @@ li  {
   height: 75px;
   background:#f3d6aa;
 }
+#container2 {
+  overflow: hidden;
+  width: 100%;
+  height: 90px;
+  background:#f3d6aa;
+}
 #imgs li {
   padding-left: 10px;
   display: inline-block;
@@ -1394,5 +1400,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-links a:hover {
   color: #802050;
-  font-weight: 600;
+  text-transform: perspective(1px) scale3d(1.07,1.07,1);
 }

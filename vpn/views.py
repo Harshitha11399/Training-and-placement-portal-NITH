@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
 from django.shortcuts import render
-
-# Create your views here.
 from django.http import HttpResponse
 
+# Create your views here.
 
 def index(request):
     return render(request, "vpn/home.html", {})
@@ -45,3 +43,9 @@ def internship(request):
 
 def opportunities(request):
     return render(request, "vpn/opportunities.html", {})
+
+def handler404(request):
+    return render(request, 'vpn/404.html', status=404)
+
+def handler500(request):
+    return render(request, 'vpn/500.html', status=500)

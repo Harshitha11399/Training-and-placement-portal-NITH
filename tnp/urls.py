@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.conf.urls import handler404, handler500
 
 urlpatterns = [
     # VPN interface is the default interface
@@ -35,3 +36,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 ]
 
+handler404 = 'vpn.views.handler404'
+handler500 = 'vpn.views.handler500'
